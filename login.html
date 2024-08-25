@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        body{
+            background-color: blue;
+        }
+        .Tela-login{
+            background-color: rgba(0,0,0, 0.5);
+            position: absolute;
+            top: 1%;
+            left: 35%;
+            transform: translate(-50,-50);
+            padding: 40px;
+            border-radius: 20px;
+            color: white;
+        }
+        .login{
+            padding: 20px;
+            background-color: rgba(250, 250, 250, 0.6);
+            border-radius: 15px;
+            outline: none;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        button{
+            background-color: rgb(255, 0, 0);
+            border: none;
+            padding: 20px;
+            width: 100%;
+            border-radius: 20px;
+            color: white;
+        }
+        button:hover{
+            background-color: green;
+            cursor: pointer;
+        }
+        .inputSubmit{
+            background-color: rgb(255, 0, 0);
+            border: none;
+            padding: 20px;
+            width: 100%;
+            border-radius: 20px;
+            color: white;
+        }
+        .inputSubmit:hover{
+            background: green;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="Tela-login">
+        <h1>Bem vindo de volta</h1>
+        <input class="login" type="text" name="email" placeholder="Email">
+        <br><br>
+        <input class="login" type="password" name="senha" placeholder="Digite sua senha">
+        <br><br>
+        <a href="inicio.html"><input class="inputSubmit" type="submit" name="submit" value="Enviar"></a>
+        <br><br>
+        <a href="registro.html"><button>Cadastre-se</button></a>
+
+
+    </div>
+</body>
+</html>
